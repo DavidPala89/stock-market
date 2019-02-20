@@ -1,11 +1,16 @@
-package StockMarket;
+package stockmarket;
 
 import java.util.LinkedList;
 import java.lang.Math;
 
+
+/*
+ * The purpose of the class 'StockPile' is to compute the GBCE All Share index. 
+ */
+
 public class StockPile {
 	
-	LinkedList<Stock> object = new LinkedList<Stock>();
+	private LinkedList<Stock> object = new LinkedList<Stock>();
 	
 	
 	public void addStock(Stock stock) {

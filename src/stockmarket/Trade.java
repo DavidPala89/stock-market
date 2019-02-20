@@ -1,13 +1,18 @@
-package StockMarket;
+package stockmarket;
 
 import java.util.Date;
 import java.util.LinkedList;
 
 
+/*
+ * The purpose of the class 'Trade' is to compute the Volume Weighted Stock Price. 
+ */
+
 public class Trade {
 	
-	LinkedList<TradeRecord> object = new LinkedList<TradeRecord>();
+	private LinkedList<TradeRecord> object = new LinkedList<TradeRecord>();
 	private StockSymbol stockSymbol;
+	
 	
 	public Trade(StockSymbol stockSymbol){
 		
@@ -22,8 +27,8 @@ public class Trade {
 	
 	
 	/* 
-	 In the next method, I set the Volume Weighted Stock Price equal to 0 if 'object' is empty. 
-	 Otherwise, I assume that Volume Weighted Stock Price is always positive, and for this reason I don't implement a try block and a catch block.
+	 * In the next method, I set the Volume Weighted Stock Price equal to 0 if 'object' is empty. 
+	 * Otherwise, I am assuming that the Volume Weighted Stock Price is always positive.
 	 */
 	
 	public double volumeWeightedStockPrice() {

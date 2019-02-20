@@ -1,4 +1,11 @@
-package StockMarket;
+package stockmarket;
+
+
+/*
+ * In the 'StockSymbol' enum I keep track of the informations provided in Table 1 of the exercise.
+ * The members with 'Common' type have 3 values. Namely: stock type, last dividend and Par Value.
+ * The members  with 'Preferred' type (only GIN in this scenario) have 4 values. Namely: stock type, last dividend, fixed dividend and par value.
+ */
 
 public enum StockSymbol {
 	

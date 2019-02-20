@@ -1,4 +1,5 @@
-package StockMarket;
+package stockmarket;
+
 
 public enum Indicator {
 	

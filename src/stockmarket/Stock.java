@@ -1,4 +1,9 @@
-package StockMarket;
+package stockmarket;
+
+
+/*
+ * The class 'Stock' returns the dividend Yield and the P/E ratio.
+ */
 
 public class Stock {
 	
@@ -19,8 +24,7 @@ public class Stock {
 	
 	
 	/* 
-	 In the next method, I will assume that 'stockPrice' is always positive (as shares should always have a non-zero price). 
-	 For this reason, I don't implement a try block and a catch block.
+	 * In the next method, I am assuming that 'stockPrice' is always positive (as shares should always have a non-zero price). 
 	 */
 	
 	public double dividendYield() {
@@ -34,10 +38,14 @@ public class Stock {
 	}
 	
 	
+	/*
+	 * P/E ratios can be equal to infinity? (as in the case of TEA stocks?)
+	 */
+	
 	public double peRatio() {
 		
 		return (double)stockPrice/dividendYield();
 	}
 	
 
-}
+} 

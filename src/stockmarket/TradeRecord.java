@@ -1,4 +1,9 @@
-package StockMarket;
+package stockmarket;
+
+
+/*
+ * The objects of the class 'TradeRecord' are used to record trades, according to part a.iii. of the exercise.
+ */
 
 public class TradeRecord {
 
